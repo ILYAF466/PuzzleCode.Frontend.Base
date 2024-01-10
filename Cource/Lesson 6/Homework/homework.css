@@ -1,0 +1,43 @@
+.t1{
+    padding: 0px 100px 200px 0px;
+    background-image: url('./зима.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.t2{
+    padding: 0px 200px 200px 0px;
+    background-image: url('./весна.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.t3{
+    padding: 0px 200px 200px 0px;
+    background-image: url('./лето.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.t4{
+    padding: 0px 200px 200px 0px;
+    background-image: url('./осень.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}

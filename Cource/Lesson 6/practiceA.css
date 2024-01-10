@@ -1,0 +1,26 @@
+.wildlife-title {
+    color: red;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.wildlife-list {
+    color: rgb(0,0,225);
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+.wildlife-description {
+    color: #00FF05;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
