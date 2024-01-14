@@ -1,0 +1,262 @@
+/* первый блок*/
+.back_image{
+    display: flex;
+    background-image: url("./image.png");
+    width: 1920px;
+    height: 954px;
+    flex-direction: column;
+}
+
+.back_image #t1 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 268px 424px 16px 240px;
+}
+
+.back_image #image5{
+    width: 75px;
+    height: 62px;
+    flex-shrink: 0;
+    background-image: url(./image\ 5.png);
+    margin: 0px 1041px 0px 804px;
+}
+
+.back_image #t2{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px 1047px 0px 240px
+}
+
+.back_image #t3{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 1154px 10px 240px
+}
+
+.back_image #t4{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 730px;
+    margin: 0px 950px 30px 240px
+}
+
+
+.back_image button{
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    border: none;
+    content: 118;
+    background-color: #F7C35F;
+    color: #1A1A1A;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    appearance: none;
+    margin: 0px 1462px 37px 240px;
+}
+
+/* второй блок*/
+.back_color{
+    background: #334B35;
+    width: 1920px;
+    height: 656px;
+}
+
+.back_color #p1{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0px 796.5px 0px 797.5px;
+    padding-top: 78px;
+}
+
+.back_color #p2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 627px 120px 628px;
+}
+
+.back_color button{
+    border-radius: 15px;
+    background: #445945;
+    width: 183px;
+    height: 177px;
+    padding: 33px 57px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.back_color #b1{
+    margin: 0px 61px 188px 240px;
+    background-image: url("./Icon_Apple.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+.back_color #b2{
+    margin: 0px 70px 188px 0px;
+    background-image: url("./blueberry\ 2.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+.back_color #b3{
+    margin: 0px 70px 188px 0px;
+    background-image: url("./icon-Strawberry.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+.back_color #b4{
+    margin: 0px 70px 188px 0px;
+    background-image: url("./eggplant.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+.back_color #b5{
+    margin: 0px 70px 188px 0px;
+    background-image: url("./cabbage.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+.back_color #b6{
+    margin: 0px 20px 188px 0px;
+    background-image: url("./carrot.png");
+    background-repeat: no-repeat;
+    background-position: 57px 33px;
+}
+
+
+
+/* третий блок*/
+.back_image1{
+    background-image: url("./image1.png");
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 694px;
+}
+
+.back_image1 p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 284px 1071px 284px 240px;
+    margin: 0%;
+}
+
+/* четвертый блок*/
+.back_color1{
+    background-color: #263C28;;
+    width: 1920px;
+    height: 853px;
+}
+
+.back_color1 #text1{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 130px 824px 20px 825px;
+    margin: 0%;
+}
+
+.back_color1 #text2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 715px 100px 716px;
+    margin: 0%;
+    text-align: center;
+}
+
+.back_color1 div{
+    background-image: url(./material-symbols_line-start-arrow-notch.png);
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 350px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: start;
+}
+
+.back_color1 p{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.back_color1 p1{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.back_color1 #picture1{
+    margin: 0px 56px 0px 239px;
+    background-image: url(./image\ 18.png)
+}
+
+.back_color1 #picture2{
+    margin: 0px 56px 0px 0px;
+    background-image: url(./image\ 11.png)
+}
+
+.back_color1 #picture3{
+    margin: 0px 57px 0px 0px;
+    background-image: url(./image\ 13.png)
+}
+
+.back_color1 #picture4{
+    margin: 0px 225px 0px 0px;
+    background-image: url(./image\ 12.png)
+}
