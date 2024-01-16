@@ -1,0 +1,1235 @@
+/*TopNav*/
+
+.TopNav{
+    background-color: #FFF;
+    width: 1440px;
+    height: 132px; 
+}
+
+.TopNav #b1{
+    background-image: url(./icons/Search.png);
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    left: 28px;
+    padding: 0.98px, 1.5px, 1.5px, 0.98px;
+    position: absolute;
+}
+
+.TopNav #t1{
+    width: 50px;
+    height: 28px;
+    left: 687px;
+    color: #22202E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+}
+
+.TopNav #b2{
+    background-image: url(./icons/Shopping--cart.png);
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    left: 1364px;
+    padding: 1px, 1.49px, 1px, 0px;
+    position: absolute;
+}
+
+.TopNav #b3{
+    background-image: url(./icons/User--avatar.png);
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    left: 1396px;
+    padding: 1px, 1px, 1px, 1px;
+    position: absolute;
+}
+
+.TopNav #divider{
+    background: rgba(0, 0, 0, 0.10);
+    width: 1386px;
+    height: 1px;
+    width: 1386px;
+    top: 70px;
+    left: 28px;
+    border: 1px;
+    position: absolute;
+}
+
+.TopNav .main_linies{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 44px;
+    width: hug (790px);
+    height: hug (28px);
+    top: 90px;
+    left: 382px;
+    position: absolute;
+}
+
+.TopNav .main_linies p{
+    color: #726E8D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.TopNav .main_linies :nth-child(1){
+    width: 91px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(2){
+    width: 85px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(3){
+    width: 59px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(4){
+    width: 57px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(5){
+    width: 79px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(6){
+    width: 92px;
+    height: 28px;
+}
+
+.TopNav .main_linies :nth-child(7){
+    width: 63px;
+    height: 28px;
+}
+
+/*HeroBlocks*/
+
+.HeroBlocks{
+    background: var(--White, #FFF);
+    display: flex;
+    width: 1440px;
+    height: 704px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container{
+    display: flex;
+    background: var(--Dark-Primary, #2A254B);
+    width: 1280px;
+    height: 584px;
+    top: 60px;
+    left: 80px;
+}
+
+.TopContent{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+    width: 513px;
+    height: 191px;
+    top: 60px;
+    left: 60px;
+    position: relative;
+}
+
+.TopContent p{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 513px;
+    height: 90px;
+    margin: 0px;
+}
+
+.TopContent button{
+    background: rgba(249, 249, 249, 0.15);
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    width: hug (199px);
+    height: hug (60px);
+    gap: 10px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.Container .text{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    width: 674px;
+    height: 84px;
+    top: 443px;
+    left: -450px;
+    position: relative;
+}
+
+.Container .image{
+    background-image: url(./images/b01e6c4660bc72629bd073b338a795ca.jpeg);
+    background-size: 520px;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    width: 520px;
+    height: 584px;
+    left: 840px;
+    position: absolute;
+}
+
+/*Features1*/
+
+.Features1{
+    background: var(--White, #FFF);
+    width: 1440px;
+    height: 355px;  
+}
+
+.Features1 #text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 449px;
+    height: 45px;
+    position:static;
+    margin-left: 529px;
+}
+
+.Features1 .featuresblocks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.featuresblocks :nth-child(1){
+    width: 270px;
+    height: 160px;
+    top: 145px;
+    left: 86px;
+    gap: 16px;
+}
+
+.featuresblocks :nth-child(1) div{
+    background-image: url(./icons/Delivery.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+
+.featuresblocks :nth-child(1) #text1{
+    width: 189px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.featuresblocks :nth-child(1) #text2{
+    width: 270px;
+    height: 84px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.featuresblocks :nth-child(2){
+    width: 266px;
+    height: 188px;
+    top: 145px;
+    left: 415px;
+    gap: 16px;
+}
+
+.featuresblocks :nth-child(2) div{
+    background-image: url(./icons/Checkmark--outline.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.featuresblocks :nth-child(2) #text3{
+    width: 195px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.featuresblocks :nth-child(2) #text4{
+    width: 266px;
+    height: 112px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.featuresblocks :nth-child(3){
+    width: 235px;
+    height: 160px;
+    top: 145px;
+    left: 739px;
+    gap: 16px;
+}
+
+.featuresblocks :nth-child(3) div{
+    background-image: url(./icons/Purchase.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+
+.featuresblocks :nth-child(3) #text5{
+    width: 163px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.featuresblocks :nth-child(3) #text6{
+    width: 235px;
+    height: 84px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.featuresblocks :nth-child(4){
+    width: 265px;
+    height: 160px;
+    top: 145px;
+    left: 1065px;
+    gap: 16px;
+}
+
+.featuresblocks :nth-child(4) div{
+    background-image: url(./icons/Sprout.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+
+.featuresblocks :nth-child(4) #text7{
+    width: 180px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.featuresblocks :nth-child(4) #text8{
+    width: 265px;
+    height: 84px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+/*Listings1*/
+
+.Listings1{
+    background: var(--White, #FFF);
+    width: 1440px;
+    height: 761px;
+}
+
+.Listings1 .productcards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.Listings1 #text{
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 203px;
+    height: 45px;
+    top: 80px;
+    left: 80px;
+    position: static;
+    margin-left: 80px;
+}
+
+.Listings1 .productcards :nth-child(1){
+    width: 305px;
+    height: 463px;
+    top: 151.5px;
+    left: 80px;
+    gap: 24px;
+}
+
+.Listings1 .productcards :nth-child(1) div{
+    background-image: url(./images/Photo.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings1 .productcards :nth-child(1) #text1{
+    width: 144px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings1 .productcards :nth-child(1) #text2{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings1 .productcards :nth-child(2){
+    width: 305px;
+    height: 463px;
+    top: 151.5px;
+    left: 405px;
+    gap: 24px;
+}
+
+.Listings1 .productcards :nth-child(2) div{
+    background-image: url(./images/Photo\ \(1\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings1 .productcards :nth-child(2) #text3{
+    width: 139px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings1 .productcards :nth-child(2) #text4{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings1 .productcards :nth-child(3){
+    width: 305px;
+    height: 463px;
+    top: 151.5px;
+    left: 405px;
+    gap: 24px;
+}
+
+.Listings1 .productcards :nth-child(3) div{
+    background-image: url(./images/Photo\ \(2\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings1 .productcards :nth-child(3) #text5{
+    width: 129px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings1 .productcards :nth-child(3) #text6{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings1 .productcards :nth-child(4){
+    width: 305px;
+    height: 463px;
+    top: 151.5px;
+    left: 405px;
+    gap: 24px;
+}
+
+.Listings1 .productcards :nth-child(4) div{
+    background-image: url(./images/Parent.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings1 .productcards :nth-child(4) #text7{
+    width: 136px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings1 .productcards :nth-child(4) #text8{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings1 .button{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 199px;
+    height: 60px;
+    top: 649px;
+    left: 635px;
+    margin-top: 34.5px;
+    margin-left: 635px;
+}
+
+.Listings1 .button #text9{
+    width: 135px;
+    height: 28px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/*Listings2*/
+
+.Listings2{
+    background: #FFF;
+    width: 1440px;
+    height: 744px;  
+}
+
+.Listings2 .productcards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.Listings2 #text{
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 301px;
+    height: 45px;
+    top: 64px;
+    left: 80px;
+    position: static;
+    margin-left: 80px;
+}
+
+.Listings2 .productcards :nth-child(1){
+    width: 630px;
+    height: 463px;
+    top: 133.5px;
+    left: 80px;
+    gap: 24px;
+}
+
+.Listings2 .productcards :nth-child(1) div{
+    background-image: url(./images/Large.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 630px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings2 .productcards :nth-child(1) #text1{
+    width: 200px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings2 .productcards :nth-child(1) #text2{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings2 .productcards :nth-child(2){
+    width: 305px;
+    height: 463px;
+    top: 135.5px;
+    left: 730px;
+    gap: 24px;
+}
+
+.Listings2 .productcards :nth-child(2) div{
+    background-image: url(./images/Photo3.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings2 .productcards :nth-child(2) #text3{
+    width: 144px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings2 .productcards :nth-child(2) #text4{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings2 .productcards :nth-child(3){
+    width: 305px;
+    height: 463px;
+    top: 135.5px;
+    left: 1055px;
+    gap: 24px;
+}
+
+.Listings2 .productcards :nth-child(3) div{
+    background-image: url(./images/Parent1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings2 .productcards :nth-child(3) #text5{
+    width: 144px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.Listings2 .productcards :nth-child(3) #text6{
+    width: 46px;
+    height: 28px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0px;
+}
+
+.Listings2 .button{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 199px;
+    height: 60px;
+    top: 649px;
+    left: 635px;
+    margin-top: 34.5px;
+    margin-left: 635px;
+}
+
+.Listings2 .button #text7{
+    width: 135px;
+    height: 28px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/*EmailSign-up*/
+
+.EmailSign-up{
+    background: var(--Light-Grey, #F9F9F9);
+    width: 1440px;
+    height: 481px;
+    padding: 52px 74px 65px 93px;
+}
+
+.EmailSign-up .Container{
+    background: var(--White, #FFF);
+    width: 1273px;
+    height: 364px;
+    padding: 68px 351px 50px 351px;
+    gap: 80px;
+}
+
+.EmailSign-up .Container .TextContent{
+    width: 571px;
+    height: 106px;
+    top: 68px;
+    left: 351px;
+    gap: 16px;
+}
+
+.EmailSign-up .Container .TextContent :nth-child(1){
+    width: 571px;
+    height: 34px;
+    color: var(--Dark-Primary, #2A254B);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.EmailSign-up .Container .TextContent :nth-child(2){
+    width: 470px;
+    height: 56px;
+    color: var(--Dark-Primary, #2A254B);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.EmailSign-up .Container .TextInput{
+    display: flex;
+    align-items: flex-end;
+    width: 472px;
+    height: 60px;
+    top: 254px;
+    left: 400px;
+}
+
+.EmailSign-up.Container .TextInput input{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 496px;
+    height: 60px;
+    padding: 17px, 314px, 15px, 32px;
+    gap: 10px;
+}
+
+.EmailSign-up .Container .TextInput button{
+    background: var(--Dark-Primary, #2A254B);
+    width: 131px;
+    height: 60px;
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+/*Features2*/
+
+.Features2{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 603px;
+}
+
+.Features2 .LeftContent{
+    width: 720px;
+    height: 603px;
+    padding: 72px, 100px, 50px, 84px;
+}
+
+.Features2 .LeftContent .TopContent{
+    width: 536px;
+    height: 317px;
+    top: 72px;
+    left: 84px;
+    gap: 25px;
+    margin-left: 30px;
+}
+
+.Features2 .LeftContent .TopContent :nth-child(1){
+    width: 494px;
+    height: 68px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+.Features2 .LeftContent .TopContent :nth-child(2){
+    width: 536px;
+    height: 224px;
+    color: #505977;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.Features2 .LeftContent .TopContent :nth-child(3){
+    width: 536px;
+    height: 224px;
+    color: #505977;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.Features2 .LeftContent button{
+    background: var(--Light-Grey, #F9F9F9);
+    width: 171px;
+    height: 60px;
+    top: 493px;
+    left: 84px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+}
+
+.Features2 .image{
+    background-image: url(./images/Image.png);
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 603px;
+    left: 720px;
+}
+
+/*Footer*/
+
+footer{
+    background: var(--Dark-Primary, #2A254B);
+    width: 1440px;
+    height: 414px;
+}
+
+footer .menu{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 88px;
+    height: 22px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-left: 82px;
+}
+
+footer .menu :nth-child(1){
+    width: 51px;
+    height: 28px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .menu p{
+    width: 127px;
+    height: 22px;
+    margin: 0px;
+}
+
+footer .categories{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-left: 110px;
+}
+
+footer .categories :nth-child(1){
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .categories p{
+    margin: 0px;
+}
+
+footer .OurCompany{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 58px;
+    margin-left: 119px;
+}
+
+footer .OurCompany :nth-child(1){
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .OurCompany p{
+    margin: 0px;
+}
+
+footer #text{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 178px;
+    height: 28px;
+    top: 58px;
+    left: 730px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    margin-left: 94px;  
+    margin-top: 0px; 
+    margin-bottom: 8px;
+}
+
+footer .TextInput{
+    display: flex;
+    justify-content: flex-start;
+    width: 627px;
+    height: 60px;
+    left: 725px;
+    bottom: 165px;
+    position: relative;
+    
+}
+
+footer .TextInput input{
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: rgba(255, 255, 255, 0.15);
+    width: 496px;
+    height: 60px;
+    padding: 17px, 314px, 15px, 32px;
+    gap: 10px;
+}
+
+footer .TextInput button{
+    display: flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--White, #FFF);
+    width: 131px;
+    height: 60px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+footer .line11{
+    background: #4E4D93;
+    width: 1277px;
+    height: 1px;
+    top: 312px;
+    margin-left: 80px;
+    border: 1px;
+}
+
+footer #text1{
+    width: 229px;
+    height: 28px;
+    top: 336px;
+    left: 80px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    margin-left: 80px;
+}
+
+footer .SocialLinks{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    width: 264px;
+    height: 24px;
+    left: 1093px;
+    bottom: 50px;
+    position: relative;
+}
+
+footer .SocialLinks :nth-child(1){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(2){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector1.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(3){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector2.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(4){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector3.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(5){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector4.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(6){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector5.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
