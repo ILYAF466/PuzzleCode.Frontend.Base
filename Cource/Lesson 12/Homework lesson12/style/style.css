@@ -64,8 +64,8 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 44px;
-    width: hug (790px);
-    height: hug (28px);
+    width: 790px;
+    height: 28px;
     top: 90px;
     left: 382px;
     position: absolute;
@@ -78,6 +78,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
+    margin: 0px;
+
 }
 
 .TopNav .main_linies :nth-child(1){
@@ -131,8 +133,9 @@
     background: var(--Dark-Primary, #2A254B);
     width: 1280px;
     height: 584px;
-    top: 60px;
+    top: 50px;
     left: 80px;
+    margin-bottom: 45px;
 }
 
 .TopContent{
@@ -184,16 +187,17 @@
     line-height: 140%; /* 28px */
     width: 674px;
     height: 84px;
-    top: 443px;
-    left: -450px;
+    top: 446px;
+    left: -452px;
     position: relative;
+    margin: 0px;
 }
 
 .Container .image{
     background-image: url(./images/b01e6c4660bc72629bd073b338a795ca.jpeg);
     background-size: 520px;
     background-repeat: no-repeat;
-    background-position-y: -50px;
+    background-position-y: -30px;
     width: 520px;
     height: 584px;
     left: 840px;
@@ -219,12 +223,12 @@
     height: 45px;
     position:static;
     margin-left: 529px;
+    margin-top: 40px;
 }
 
 .Features1 .featuresblocks{
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .featuresblocks :nth-child(1){
@@ -233,6 +237,8 @@
     top: 145px;
     left: 86px;
     gap: 16px;
+    margin-left: 85px;
+    margin-top: 8px;
 }
 
 .featuresblocks :nth-child(1) div{
@@ -240,6 +246,7 @@
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
+    margin: 0px;
 
 }
 
@@ -257,6 +264,7 @@
     text-align: center;
     margin-top: 16px;
     margin-bottom: 8px;
+    margin-left: 0px;
 }
 
 .featuresblocks :nth-child(1) #text2{
@@ -277,6 +285,7 @@
     top: 145px;
     left: 415px;
     gap: 16px;
+    margin-left: 30px;
 }
 
 .featuresblocks :nth-child(2) div{
@@ -284,6 +293,7 @@
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
+    margin-left: 32px;
 }
 
 .featuresblocks :nth-child(2) #text3{
@@ -311,7 +321,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin: 0px;
+    margin-left: 30px;
+    margin-top: 0px;
 }
 
 .featuresblocks :nth-child(3){
@@ -320,6 +331,7 @@
     top: 145px;
     left: 739px;
     gap: 16px;
+    margin-left: 57px;
 }
 
 .featuresblocks :nth-child(3) div{
@@ -327,7 +339,7 @@
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
-
+    margin-left: 32px;
 }
 
 .featuresblocks :nth-child(3) #text5{
@@ -355,7 +367,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin: 0px;
+    margin-left: 30px;
+    margin-top: 0px;
 }
 
 .featuresblocks :nth-child(4){
@@ -364,6 +377,7 @@
     top: 145px;
     left: 1065px;
     gap: 16px;
+    margin-left: 91px;
 }
 
 .featuresblocks :nth-child(4) div{
@@ -371,7 +385,7 @@
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
-
+    margin-left: 32px;
 }
 
 .featuresblocks :nth-child(4) #text7{
@@ -399,7 +413,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin: 0px;
+    margin-left: 32px;
+    margin-top: 0px;
 }
 
 /*Listings1*/
