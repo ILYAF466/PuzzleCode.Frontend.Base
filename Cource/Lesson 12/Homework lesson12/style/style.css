@@ -765,7 +765,7 @@
 }
 
 .Listings2 .productcards :nth-child(1) div{
-    background-image: url(./images/Large.png);
+    background: url(./images/Large.png);
     background-repeat: no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
