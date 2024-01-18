@@ -61,8 +61,12 @@
 }
 
 .TopNav .main_linies{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 44px;
     width: 790px;
     height: 28px;
@@ -121,14 +125,22 @@
 
 .HeroBlocks{
     background: var(--White, #FFF);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1440px;
     height: 704px;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: var(--Dark-Primary, #2A254B);
     width: 1280px;
@@ -139,9 +151,16 @@
 }
 
 .TopContent{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 41px;
     width: 513px;
     height: 191px;
@@ -164,9 +183,13 @@
 
 .TopContent button{
     background: rgba(249, 249, 249, 0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: hug (199px);
     height: hug (60px);
     gap: 10px;
@@ -227,8 +250,13 @@
 }
 
 .Features1 .featuresblocks{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 .featuresblocks :nth-child(1){
@@ -426,9 +454,14 @@
 }
 
 .Listings1 .productcards{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-left: 60px;
 }
 
@@ -458,12 +491,21 @@
 .Listings1 .productcards :nth-child(1) div{
     background-image: url(./images/Photo.png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings1 .productcards :nth-child(1) #text1{
@@ -502,12 +544,21 @@
 .Listings1 .productcards :nth-child(2) div{
     background-image: url(./images/Photo\ \(1\).png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings1 .productcards :nth-child(2) #text3{
@@ -546,12 +597,21 @@
 .Listings1 .productcards :nth-child(3) div{
     background-image: url(./images/Photo\ \(2\).png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings1 .productcards :nth-child(3) #text5{
@@ -590,12 +650,21 @@
 .Listings1 .productcards :nth-child(4) div{
     background-image: url(./images/Parent.png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings1 .productcards :nth-child(4) #text7{
@@ -625,8 +694,12 @@
 
 .Listings1 .button{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 16px 32px;
     gap: 10px;
     width: 199px;
@@ -657,9 +730,14 @@
 }
 
 .Listings2 .productcards{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-left: 60px;
 }
 
@@ -689,12 +767,21 @@
 .Listings2 .productcards :nth-child(1) div{
     background-image: url(./images/Large.png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 630px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings2 .productcards :nth-child(1) #text1{
@@ -733,12 +820,21 @@
 .Listings2 .productcards :nth-child(2) div{
     background-image: url(./images/Photo3.png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings2 .productcards :nth-child(2) #text3{
@@ -777,12 +873,21 @@
 .Listings2 .productcards :nth-child(3) div{
     background-image: url(./images/Parent1.png);
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings2 .productcards :nth-child(3) #text5{
@@ -812,8 +917,12 @@
 
 .Listings2 .button{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 16px 32px;
     gap: 10px;
     width: 199px;
@@ -885,8 +994,12 @@
 }
 
 .EmailSign-up .Container .TextInput{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     width: 472px;
     height: 60px;
     top: 254px;
@@ -895,10 +1008,18 @@
 
 .EmailSign-up.Container .TextInput input{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 496px;
     height: 60px;
     padding: 17px, 314px, 15px, 32px;
@@ -923,8 +1044,12 @@
 /*Features2*/
 
 .Features2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 1440px;
     height: 603px;
 }
@@ -1015,9 +1140,16 @@ footer{
 }
 
 footer .menu{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
     width: 88px;
     height: 22px;
@@ -1048,9 +1180,16 @@ footer .menu p{
 }
 
 footer .categories{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
     color: var(--White, #FFF);
     font-family: Roboto;
@@ -1075,9 +1214,16 @@ footer .categories p{
 }
 
 footer .OurCompany{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
     color: var(--White, #FFF);
     font-family: Roboto;
@@ -1103,9 +1249,16 @@ footer .OurCompany p{
 }
 
 footer #text{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     width: 178px;
     height: 28px;
     top: 58px;
@@ -1122,8 +1275,12 @@ footer #text{
 }
 
 footer .TextInput{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 627px;
     height: 60px;
     left: 725px;
@@ -1133,10 +1290,18 @@ footer .TextInput{
 }
 
 footer .TextInput input{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     background: rgba(255, 255, 255, 0.15);
     width: 496px;
     height: 60px;
@@ -1145,9 +1310,13 @@ footer .TextInput input{
 }
 
 footer .TextInput button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 15px 30px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     background: var(--White, #FFF);
     width: 131px;
@@ -1184,9 +1353,15 @@ footer #text1{
 }
 
 footer .SocialLinks{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 24px;
     width: 264px;
     height: 24px;
