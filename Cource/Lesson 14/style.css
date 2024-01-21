@@ -1,0 +1,1246 @@
+/*TopNav*/
+
+.TopNav{
+    background: #FFF;
+    width: 1440px;
+    height: 80px;
+}
+
+.TopNav #TopNavText{
+    width: 50px;
+    height: 28px;
+    top: 25px;
+    left: 80px;
+    color: #22202E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    position: absolute;
+}
+
+.TopNav .MainLinks{
+    display: inline-flex;
+    align-items: flex-start;
+    width: 790px;
+    height: 28px;
+    top: 29px;
+    left: 297px;
+    gap: 44px;
+    position: absolute;
+}
+
+.TopNav .MainLinks text{
+    color: #726E8D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.TopNav .MainLinks :nth-child(1){
+    width: 91px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(2){
+    width: 85px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(3){
+    width: 59px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(4){
+    width: 57px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(5){
+    width: 79px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(6){
+    width: 92px;
+    height: 28px;
+}
+
+.TopNav .MainLinks :nth-child(7){
+    width: 63px;
+    height: 28px;
+}
+
+.TopNav .SideActions{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: 80px;
+    height: 16px;
+    top: 30px;
+    left: 1280px;
+    position: absolute;
+}
+
+.TopNav .SideActions div{
+    width: 16px;
+    height: 16px;
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+}
+
+.TopNav .SideActions :nth-child(1){
+    background: url(./icons/Search.png);
+}
+
+.TopNav .SideActions :nth-child(2){
+    background: url(./icons/Shopping--cart.png);
+}
+
+.TopNav .SideActions :nth-child(3){
+    background: url(./icons/User--avatar.png);
+}
+
+/*ProductDetails*/
+
+.ProductDetails{
+    background: var(--Light-Grey, #F9F9F9);
+    width: 1440px;
+    height: 758px;
+}
+
+.ProductDetails .TopText{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 176px;
+    height: 84px;
+    top: 81px;
+    left: 752px;
+    gap: 16px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+}
+
+
+.ProductDetails .TopText :nth-child(1){
+    width: 176px;
+    height: 34px;
+}
+
+.ProductDetails .TopText :nth-child(2){
+    width: 55px;
+    height: 34px;
+}
+
+.ProductDetails .Line6{
+    background: #EBE8F4;
+    width: 518px;
+    height: 1px;
+    top: 121px;
+    left: 754px;
+    border: 1px;
+    position: relative;
+}
+
+.ProductDetails .Description{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    width: 498px;
+    height: 114px;
+    top: 145px;
+    left: 754px;
+    position: relative;
+}
+
+.ProductDetails .Description text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.ProductDetails .Description :nth-child(1){
+    width: 210px;
+    height: 34px;
+    font-size: 24px;
+}
+
+.ProductDetails .Description :nth-child(2){
+    width: 498px;
+    height: 66px;
+    font-size: 16px;
+}
+
+.ProductDetails .Dimensions{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 324px;
+    height: 129px;
+    top: 281px;
+    left: 254px;
+    position: relative;
+}
+
+.ProductDetails .Dimensions #DimensionsText{
+    width: 127px;
+    height: 34px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics{
+    display: flex;
+    width: 324px;
+    height: 71px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame38{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 62px;
+    height: 71px;
+    gap: 15px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame38 :nth-child(1){
+    width: 59px;
+    height: 28px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame38 :nth-child(2){
+    width: 62px;
+    height: 28px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Line4{
+    background: #EBE8F4;
+    width: 1px;
+    height: 44px;
+    border: 1px;
+    transform: rotate(180deg);
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame39{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 52px;
+    height: 71px;
+    gap: 15px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame39 :nth-child(1){
+    width: 52px;
+    height: 28px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame39 :nth-child(2){
+    width: 51px;
+    height: 28px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Line5{
+    background: #EBE8F4;
+    width: 1px;
+    height: 44px;
+    border: 1px;
+    transform: rotate(180deg);
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame40{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 53px;
+    height: 71px;
+    gap: 15px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame40 :nth-child(1){
+    width: 53px;
+    height: 28px;
+}
+
+.ProductDetails .Dimensions .DimensionsMetrics .Frame40 :nth-child(2){
+    width: 51px;
+    height: 28px;
+}
+
+.ProductDetails .Quantity{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 122px;
+    height: 98px;
+    top: 419px;
+    left: -75px;
+    gap: 12px;
+    position: relative;
+}
+
+.ProductDetails .Quantity #QuantityText{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 103px;
+    height: 34px;
+}
+
+.ProductDetails .Quantity .Stepper{
+    background: var(--White, #FFF);
+    display: flex;
+    width: 122px;
+    height: 52px;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProductDetails .Quantity .Stepper :nth-child(1){
+    color: var(--Border-Grey, #EBE8F4);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 6px;
+    height: 28px;
+}
+
+.ProductDetails .Quantity .Stepper :nth-child(2){
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 12px;
+    height: 28px;
+}
+
+.ProductDetails .Quantity .Stepper :nth-child(3){
+    color: var(--Border-Grey, #EBE8F4);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 12px;
+    height: 28px;
+}
+
+.ProductDetails .CTAS{
+    display: inline-flex;
+    align-items: flex-start;
+    width: 392px;
+    height: 60px;
+    top: 545px;
+    left: -200px;
+    gap: 16px;
+    position: relative;
+}
+
+.ProductDetails .CTAS .ButtonMedium1{
+    background: var(--Dark-Primary, #2A254B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 163px;
+    height: 60px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+}
+
+.ProductDetails .CTAS .ButtonMedium1 text{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 99px;
+    height: 28px;
+}
+
+.ProductDetails .CTAS .ButtonMedium2{
+    background: var(--White, #FFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 60px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+}
+
+.ProductDetails .CTAS .ButtonMedium2 text{
+    width: 149px;
+    height: 28px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.ProductDetails .ProductImage{
+    background: url(./images/Product\ Image.png);
+    display: flex;
+    width: 607px;
+    height: 661px;
+    top: -180px;
+    left: 80px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/*Listings*/
+
+.Listings{
+    background: #FFF;
+    width: 1440px;
+    height: 744px;
+}
+
+.Listings #MainText{
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 365px;
+    height: 45px;
+    top: -274px;
+    left: 80px;
+    position: relative;
+}
+
+.Listings .ProductCard1{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 630px;
+    height: 463px;
+    top: 133.5px;
+    left: -280px;
+    gap: 24px;
+    position: relative;
+}
+
+.Listings .ProductCard1 .image1{
+    background: url(./images/Large.png);
+    width: 630px;
+    height: 375px;
+}
+
+.Listings .ProductCard1 .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    height: 64px;
+    gap: 8px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.Listings .ProductCard1 .Details :nth-child(1){
+    width: 200px;
+    height: 28px;
+}
+
+.Listings .ProductCard1 .Details :nth-child(2){
+    width: 46px;
+    height: 28px;
+}
+
+.Listings .ProductCard2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 305px;
+    height: 463px;
+    top: 134px;
+    left: -264px;
+    gap: 24px;
+    position: relative;
+}
+
+.Listings .ProductCard2 .image2{
+    background: url(./images/chair.png);
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings .ProductCard2 .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 144px;
+    height: 64px;
+    gap: 8px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.Listings .ProductCard2 .Details :nth-child(1){
+    width: 144px;
+    height: 28px;
+}
+
+.Listings .ProductCard2 .Details :nth-child(2){
+    width: 46px;
+    height: 28px;
+}
+
+.Listings .ProductCard3{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 305px;
+    height: 463px;
+    top: -329px;
+    left: 1063px;
+    gap: 24px;
+    position: relative;
+}
+
+.Listings .ProductCard3 .image3{
+    background: url(./images/Parent.png);
+    display: flex;
+    width: 305px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Listings .ProductCard3 .Details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 144px;
+    height: 64px;
+    gap: 8px;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.Listings .ProductCard3 .Details :nth-child(1){
+    width: 144px;
+    height: 28px;
+}
+
+.Listings .ProductCard3 .Details :nth-child(2){
+    width: 46px;
+    height: 28px;
+}
+
+.Listings .button{
+    background: var(--Light-Grey, #F9F9F9);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 189px;
+    height: 60px;
+    top: -168.5px;
+    left: 335px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+    position: relative;
+}
+
+.Listings .button text{
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 125px;
+    height: 28px;
+}
+
+/*Features*/
+
+.Features{
+    background: var(--White, #FFF);
+    width: 1440px;
+    height: 476px;  
+}
+
+.Features #text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 449px;
+    height: 45px;
+    top: 80px;
+    left: 529px;
+    position:relative;
+}
+
+.Features .featureblocks{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 22px;
+    top: 125px;
+    left: 80px;
+    position: relative;
+}
+
+.Features .FeatureBlock1{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 150px;
+    left: 80px;
+}
+
+.Features .FeatureBlock1 .Frame84{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 209px;
+    height: 160px;
+}
+
+.Features .FeatureBlock1 .Frame84 div{
+    background: url(./icons/Delivery.png);
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+.Features .FeatureBlock1 .Frame84 #text1{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+    width: 189px;
+    height: 28px;
+}
+
+.Features .FeatureBlock1 .Frame84 #text2{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    align-self: stretch;
+    width: 209px;
+    height: 84px;
+}
+
+.Features .FeatureBlock2{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 150px;
+    left: 407px;
+}
+
+.Features .FeatureBlock2 .Frame85{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 209px;
+    height: 188px;
+}
+
+.Features .FeatureBlock2 .Frame85 div{
+    background: url(./icons/Checkmark--outline.png);
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+.Features .FeatureBlock2 .Frame85 #text3{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+    width: 195px;
+    height: 28px;
+}
+
+.Features .FeatureBlock2 .Frame85 #text4{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    align-self: stretch;
+    width: 209px;
+    height: 112px;
+}
+
+.Features .FeatureBlock3{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 150px;
+    left: 730px;
+}
+
+.Features .FeatureBlock3 .Frame86{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 209px;
+    height: 160px;
+}
+
+.Features .FeatureBlock3 .Frame86 div{
+    background: url(./icons/Purchase.png);
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+.Features .FeatureBlock3 .Frame86 #text5{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+    width: 196px;
+    height: 28px;
+}
+
+.Features .FeatureBlock3 .Frame86 #text6{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    align-self: stretch;
+    width: 209px;
+    height: 84px;
+}
+
+.Features .FeatureBlock4{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 150px;
+    left: 1055px;
+}
+
+.Features .FeatureBlock4 .Frame87{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 209px;
+    height: 160px;
+}
+
+.Features .FeatureBlock4 .Frame87 div{
+    background: url(./icons/Sprout.png);
+    fill: var(--Transparent, #FFF);
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+.Features .FeatureBlock4 .Frame87 #text7{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+    width: 196px;
+    height: 28px;
+}
+
+.Features .FeatureBlock4 .Frame87 #text8{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    align-self: stretch;
+    width: 209px;
+    height: 84px;
+}
+
+/*EmailSign-up*/
+
+.EmailSign-up{
+    background: var(--White, #FFF);
+    width: 1440px;
+    height: 521px;
+}
+
+.EmailSign-up .image{
+    background: url(./images/Image.png);
+    display: flex;
+    width: 720px;
+    height: 521px;
+    flex-shrink: 0;
+}
+
+.EmailSign-up #EText1{
+    color: var(--Dark-Primary, #2A254B);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+    width: 355px;
+    height: 34px;
+    top: -451px;
+    left: 862px;
+    position: relative;
+}
+
+.EmailSign-up #EText2{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    width: 470px;
+    height: 56px;
+    top: -401px;
+    left: 450px;
+    position: relative;
+}
+
+.TextInput{
+    display: flex;;
+    align-items: flex-start;
+    width: 472px;
+    height: 60px;
+    top: -395px;
+    left: 792px;
+    position: relative;
+}
+
+.TextInput .Frame45{
+    background: var(--Light-Grey, #F9F9F9);
+    display: flex;
+    width: 341px;
+    height: 60px;
+    gap: 10px;
+    padding: 17px 159px 15px 32px;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.TextInput .Frame45 text{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    width: 150px;
+    height: 28px;
+    top: 17px;
+    left: 32px;
+    opacity: 0.2px;
+}
+
+.TextInput .ButtonMedium3{
+    background: var(--Dark-Primary, #2A254B);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 131px;
+    height: 60px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
+}
+
+.TextInput .ButtonMedium3 text{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    width: 67px;
+    height: 28px;
+}
+
+/*Footer*/
+
+footer{
+    background: var(--Dark-Primary, #2A254B);
+    width: 1440px;
+    height: 414px;
+}
+
+footer .menu{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    width: 88px;
+    height: 22px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-left: 82px;
+}
+
+footer .menu :nth-child(1){
+    width: 51px;
+    height: 28px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .menu p{
+    width: 127px;
+    height: 22px;
+    margin: 0px;
+}
+
+footer .categories{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-left: 110px;
+}
+
+footer .categories :nth-child(1){
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .categories p{
+    margin: 0px;
+}
+
+footer .OurCompany{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 58px;
+    margin-left: 119px;
+}
+
+footer .OurCompany :nth-child(1){
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+footer .OurCompany p{
+    margin: 0px;
+}
+
+footer #ftext{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 178px;
+    height: 28px;
+    top: 58px;
+    left: 730px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    margin-left: 94px;  
+    margin-top: 0px; 
+    margin-bottom: 8px;
+}
+
+footer .TextInput{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 627px;
+    height: 60px;
+    left: 725px;
+    bottom: 165px;
+    position: relative;
+    
+}
+
+footer .TextInput input{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    background: rgba(255, 255, 255, 0.15);
+    width: 496px;
+    height: 60px;
+    padding: 17px, 314px, 15px, 32px;
+    gap: 10px;
+}
+
+footer .TextInput button{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 30px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+    background: var(--White, #FFF);
+    width: 131px;
+    height: 60px;
+    color: #2A254B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+footer .line11{
+    background: #4E4D93;
+    width: 1277px;
+    height: 1px;
+    top: 312px;
+    margin-left: 80px;
+    border: 1px;
+}
+
+footer #ftext1{
+    width: 229px;
+    height: 28px;
+    top: 336px;
+    left: 80px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    margin-left: 80px;
+}
+
+footer .SocialLinks{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 24px;
+    width: 264px;
+    height: 24px;
+    left: 1093px;
+    bottom: 50px;
+    position: relative;
+}
+
+footer .SocialLinks :nth-child(1){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(2){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector1.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(3){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector2.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(4){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector3.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(5){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector4.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
+
+footer .SocialLinks :nth-child(6){
+    fill: var(--Transparent, #FFF);
+    background-image: url(./icons/Vector5.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 24px;
+    height: 24px;
+}
