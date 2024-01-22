@@ -21,8 +21,12 @@
 }
 
 .TopNav .MainLinks{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 790px;
     height: 28px;
     top: 29px;
@@ -76,8 +80,12 @@
 }
 
 .TopNav .SideActions{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 16px;
     width: 80px;
     height: 16px;
@@ -114,9 +122,16 @@
 }
 
 .ProductDetails .TopText{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 176px;
     height: 84px;
     top: 81px;
@@ -153,9 +168,16 @@
 }
 
 .ProductDetails .Description{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 14px;
     width: 498px;
     height: 114px;
@@ -185,9 +207,16 @@
 }
 
 .ProductDetails .Dimensions{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 24px;
     width: 324px;
     height: 129px;
@@ -208,11 +237,17 @@
 }
 
 .ProductDetails .Dimensions .DimensionsMetrics{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 324px;
     height: 71px;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .ProductDetails .Dimensions .DimensionsMetrics text{
@@ -225,9 +260,16 @@
 }
 
 .ProductDetails .Dimensions .DimensionsMetrics .Frame38{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 62px;
     height: 71px;
     gap: 15px;
@@ -248,13 +290,22 @@
     width: 1px;
     height: 44px;
     border: 1px;
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 .ProductDetails .Dimensions .DimensionsMetrics .Frame39{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 52px;
     height: 71px;
     gap: 15px;
@@ -275,13 +326,22 @@
     width: 1px;
     height: 44px;
     border: 1px;
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 .ProductDetails .Dimensions .DimensionsMetrics .Frame40{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 53px;
     height: 71px;
     gap: 15px;
@@ -298,9 +358,16 @@
 }
 
 .ProductDetails .Quantity{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 122px;
     height: 98px;
     top: 419px;
@@ -322,12 +389,18 @@
 
 .ProductDetails .Quantity .Stepper{
     background: var(--White, #FFF);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 122px;
     height: 52px;
     padding: 12px 16px;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .ProductDetails .Quantity .Stepper :nth-child(1){
@@ -364,8 +437,12 @@
 }
 
 .ProductDetails .CTAS{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 392px;
     height: 60px;
     top: 545px;
@@ -376,9 +453,15 @@
 
 .ProductDetails .CTAS .ButtonMedium1{
     background: var(--Dark-Primary, #2A254B);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 163px;
     height: 60px;
     padding: 16px, 32px, 16px, 32px;
@@ -398,9 +481,15 @@
 
 .ProductDetails .CTAS .ButtonMedium2{
     background: var(--White, #FFF);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 213px;
     height: 60px;
     padding: 16px, 32px, 16px, 32px;
@@ -420,12 +509,15 @@
 
 .ProductDetails .ProductImage{
     background: url(./images/Product\ Image.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 607px;
     height: 661px;
     top: -180px;
     left: 80px;
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     position: relative;
 }
 
@@ -452,9 +544,16 @@
 }
 
 .Listings .ProductCard1{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 630px;
     height: 463px;
     top: 133.5px;
@@ -470,9 +569,16 @@
 }
 
 .Listings .ProductCard1 .Details{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 200px;
     height: 64px;
     gap: 8px;
@@ -495,9 +601,16 @@
 }
 
 .Listings .ProductCard2{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 305px;
     height: 463px;
     top: 134px;
@@ -508,18 +621,34 @@
 
 .Listings .ProductCard2 .image2{
     background: url(./images/chair.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings .ProductCard2 .Details{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 144px;
     height: 64px;
     gap: 8px;
@@ -542,9 +671,16 @@
 }
 
 .Listings .ProductCard3{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 305px;
     height: 463px;
     top: -329px;
@@ -555,18 +691,34 @@
 
 .Listings .ProductCard3 .image3{
     background: url(./images/Parent.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 305px;
     height: 375px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .Listings .ProductCard3 .Details{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 144px;
     height: 64px;
     gap: 8px;
@@ -590,9 +742,15 @@
 
 .Listings .button{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 189px;
     height: 60px;
     top: -168.5px;
@@ -636,9 +794,15 @@
 }
 
 .Features .featureblocks{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 22px;
     top: 125px;
     left: 80px;
@@ -647,20 +811,36 @@
 
 .Features .FeatureBlock1{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 48px;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     top: 150px;
     left: 80px;
 }
 
 .Features .FeatureBlock1 .Frame84{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 160px;
 }
@@ -691,27 +871,45 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 84px;
 }
 
 .Features .FeatureBlock2{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 48px;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     top: 150px;
     left: 407px;
 }
 
 .Features .FeatureBlock2 .Frame85{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 188px;
 }
@@ -742,27 +940,45 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 112px;
 }
 
 .Features .FeatureBlock3{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 48px;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     top: 150px;
     left: 730px;
 }
 
 .Features .FeatureBlock3 .Frame86{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 160px;
 }
@@ -793,27 +1009,45 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 84px;
 }
 
 .Features .FeatureBlock4{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 48px;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     top: 150px;
     left: 1055px;
 }
 
 .Features .FeatureBlock4 .Frame87{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 160px;
 }
@@ -844,7 +1078,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
-    align-self: stretch;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 209px;
     height: 84px;
 }
@@ -859,10 +1095,13 @@
 
 .EmailSign-up .image{
     background: url(./images/Image.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 720px;
     height: 521px;
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
 }
 
 .EmailSign-up #EText1{
@@ -895,8 +1134,12 @@
 }
 
 .TextInput{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;;
-    align-items: flex-start;
+    -webkit-box-align: start;;
+        -ms-flex-align: start;;
+            align-items: flex-start;
     width: 472px;
     height: 60px;
     top: -165px;
@@ -906,13 +1149,21 @@
 
 .TextInput .Frame45{
     background: var(--Light-Grey, #F9F9F9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 341px;
     gap: 10px;
     padding: 17px 159px 15px 32px;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
 }
 
 .TextInput .Frame45 text{
